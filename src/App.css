@@ -24,6 +24,15 @@
   color: white;
 }
 
+.back1 {
+  background-repeat: no-repeat;
+  background-image: url('./cubes.jpg');
+  background-size: cover; /* Ensures the background image covers the entire element */
+  background-position: center; /* Centers the background image */
+  align-items: center;
+  min-height: 100vh; /* Sets a minimum height of 100% of the viewport height */
+}
+
 .App-link {
   color: #61dafb;
 }
